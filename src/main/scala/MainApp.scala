@@ -10,7 +10,7 @@ object MainApp extends App {
   lazy implicit val ec: ExecutionContext = system.dispatcher
 
   val service = OpenAIServiceFactory(
-    apiKey = "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"
+    apiKey = ""
   )
 
   val prompt =  """
